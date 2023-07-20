@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS `f_invoices` (
+     `ID` INT(10) NOT NULL AUTO_INCREMENT,
+     `NOMER` VARCHAR(256),
+     `SUMMA` FLOAT,
+     `DATE` DATE,
+     PRIMARY KEY (ID)
+);
